@@ -12,16 +12,23 @@ Install Cypress for Mac, Linux, or Windows, then  [get started](https://docs.cyp
 
 ## Prepare the dependencies
 install all dependencies from the root directory
+
 `npm install`
 
 ## Opening Cypress GUI
 to open the cypress and run tests
+
 `npm run cypress:open` 
+
 if u want customize u need access `.../package.json`
 
 ## Running from the CLI
 `npm run cypress:run`
+
 running switching browser
+
 `npm run cypress:run -- --browser chrome`
+
 sends test results, videos, screenshots to Cypress dashboard
+
 `npm run cypress:run -- --record`
